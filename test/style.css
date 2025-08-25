@@ -1,0 +1,35 @@
+#calc {
+    display: flex;
+    flex-wrap: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('/img/Red.webp');
+    padding-top: 10%;
+}
+
+#symboles button {
+    font-size: 5rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    outline: black solid 5px;
+    color: white;
+}
+
+input {
+    font-size: 5rem;
+    width: 500px;
+    text-align: center;
+    padding: 5%;
+    border-radius: 10%;
+}
+
+#result {
+    font-size: 5rem;
+    background-color: white;
+    padding: 5%;
+    border-radius: 40%;
+}
